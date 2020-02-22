@@ -1,4 +1,4 @@
-class CreateArtists < ActiveRecord::Migration[5.2]
+class CreateArtists < ActiveRecord::Migration[5.1]
 
   sql = <<-SQL
     CREATE TABLE IF NOT EXISTS artists (
